@@ -108,7 +108,7 @@
 
 <p>Perintah dasar menggunakan <strong>Curl</strong> adalah:</p>
 
-<pre><code>curl -X GET -D header.txt http://example.com/some/path
+<pre><code>    curl -X GET -D header.txt http://example.com/some/path
 </code></pre>
 
 <p>Perintah diatas akan melakukan HTTP GET request untuk URI <a href="http://example.com/some/path.">http://example.com/some/path.</a> Dan akan menyimpan hasil dari response kedalam file <em>header.txt</em> (lihat option -D)</p>
@@ -118,16 +118,20 @@
 <ul>
 <li><p><code>-D filename</code></p>
 
-<p>  Menyimpan response header kedalam file <em>filename</em></p></li>
+<pre><code>  Menyimpan response header kedalam file *filename*
+</code></pre></li>
 <li><p><code>-i</code></p>
 
-<p>  Mengirim response header kedalam standard output, bersama dengan response body</p></li>
+<pre><code>  Mengirim response header kedalam standard output, bersama dengan response body
+</code></pre></li>
 <li><p><code>--basic --user username:password</code></p>
 
-<p>  Authenticate request menggunakan HTTP Basic authentication, dengan username dan password yang spesifik</p></li>
+<pre><code>  Authenticate request menggunakan HTTP Basic authentication, dengan username dan password yang spesifik
+</code></pre></li>
 <li><p><code>-H "header: value"</code></p>
 
-<p> Mengatur request header header dengan value</p></li>
+<pre><code> Mengatur request header header dengan value 
+</code></pre></li>
 </ul>
 
 
@@ -136,13 +140,16 @@
 <ul>
 <li><p><code>-T filename</code></p>
 
-<p>  Mengirim isi dari file filename sebagai body dari request PUT. Option ini berguna untuk proses upload file.</p></li>
+<pre><code>  Mengirim isi dari file filename sebagai body dari request PUT. Option ini berguna untuk proses upload file.
+</code></pre></li>
 <li><p><code>-k</code></p>
 
-<p>  Mengabaikan SSL certificate. Sangat berguna ketika berhubungan dengan server development dengan Self-signed Certificate.</p></li>
+<pre><code>  Mengabaikan SSL certificate. Sangat berguna ketika berhubungan dengan server development dengan Self-signed Certificate. 
+</code></pre></li>
 <li><p><code>h</code></p>
 
-<p>  Untuk bantuan (help). Menampilkan semua option dari command Curl</p></li>
+<pre><code>  Untuk bantuan (help). Menampilkan semua option dari command Curl 
+</code></pre></li>
 </ul>
 
 
