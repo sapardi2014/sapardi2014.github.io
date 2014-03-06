@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://sapardi2014.github.io/sitemap.xml 
