@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Inspiration...]]></title>
-  <link href="http://sapardi2014.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Linux | My Inspiration...]]></title>
+  <link href="http://sapardi2014.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://sapardi2014.github.io/"/>
   <updated>2014-03-06T18:40:11+07:00</updated>
   <id>http://sapardi2014.github.io/</id>
