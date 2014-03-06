@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Linux | My Inspiration...]]></title>
   <link href="http://sapardi2014.github.io/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://sapardi2014.github.io/"/>
-  <updated>2014-03-06T21:45:33+07:00</updated>
+  <updated>2014-03-06T21:46:35+07:00</updated>
   <id>http://sapardi2014.github.io/</id>
   <author>
     <name><![CDATA[Sapardi]]></name>
@@ -46,8 +46,7 @@
 <ul>
 <li><p><code>-D filename</code></p>
 
-<pre><code>  Menyimpan response header kedalam file *filename*
-</code></pre></li>
+<p>  Menyimpan response header kedalam file <em>filename</em></p></li>
 <li><p><code>-i</code></p>
 
 <p>  Mengirim response header kedalam standard output, bersama dengan response body</p></li>
